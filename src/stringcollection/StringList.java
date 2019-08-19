@@ -29,7 +29,8 @@ public class StringList {
 			System.out.println("2. To insert an Strings at particular index");
 			System.out.println("3. To search for a Strings");
 			System.out.println("4. To display all the Strings");
-			System.out.println("5. Exit");
+			System.out.println("5. To display all the strings with given letter");
+			System.out.println("6. Exit:");
 			System.out.print("Enter your choice:");
 			
 			option=sc.nextInt();
@@ -64,23 +65,42 @@ public class StringList {
 			case 4:
 				System.out.println("The available String are:");
 				for(i=0;i<str.size();i++)
+				
+		           
 				{
 					System.out.println(str.get(i));
 				}
 				break;
 			case 5:
+			{
+				System.out.println("enter string starting letter");
+				n=sc.next();
+				for(i=0;i<str.size();i++)
+				{
+					if(str.get(i).startsWith(n)) {
+						System.out.println(str.get(i));
+					
+				}
+				}
+					break;
+				}
+			case 6:
 				System.out.println("Thankyou for using number list application !!!");
 				break;
 			default:
 				System.out.println("Please enter a valid number !!!");
 			}
 			
-			if(option==5)
+			if(option==6)
 			{		
 				break;
+			
 			}
-		}
 
+	
 	}
+	
+	
 
+}
 }
