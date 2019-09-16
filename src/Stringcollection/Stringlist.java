@@ -1,11 +1,9 @@
-/*
- * This program is to maintain the list of numbers
- * Developed by
- * Nithishkumar.
- * Saveetha Engineering College
- * jpnithishkumar@gmail.com
- * 
- */
+/***
+* EXPERIMENT-04
+*developed by Nithishkumar
+*Saveetha Engineering College
+*jpnithishkumar@gmail.com
+*/
 
 package Stringcollection;
 
