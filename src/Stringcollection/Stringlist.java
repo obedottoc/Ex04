@@ -9,7 +9,7 @@ public class Stringlist {
 public static void main(String[] args) {
 
 int option,index,i;
-String n;
+String n,s;
 Scanner sc=new Scanner(System.in);
 ArrayList alpha;
 
@@ -22,7 +22,9 @@ System.out.println("1. To add an string at the end");
 System.out.println("2. To insert an string at particular index");
 System.out.println("3. To search for a string");
 System.out.println("4. To display all the string");
-System.out.println("5. Exit");
+System.out.println("5. To List all string starts with given letter");
+
+System.out.println("6. Exit");
 System.out.print("Enter your choice:");
 
 option=sc.nextInt();
@@ -61,19 +63,33 @@ System.out.println(alpha.get(i));
 }
 break;
 case 5:
+
+
+{
+System.out.println("enter string starting letter");
+s=sc.next();
+for(i=0;i<alpha.size();i++) {
+
+if (((String) alpha.get(i)).startsWith(s)){
+System.out.println(alpha.get(i));
+}
+}
+break;
+}
+
+
+case 6:
 System.out.println("Thankyou for using string list application !!!");
 break;
 default:
 System.out.println("Please enter a valid number !!!");
 }
 
-if(option==5)
+if(option==6)
 {
 break;
 }
 }
 
 }
-
-
 }
