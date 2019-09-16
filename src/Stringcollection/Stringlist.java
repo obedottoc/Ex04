@@ -1,4 +1,7 @@
-
+/*saveetha engineering college
+ * developed by 
+ * suriya kumar
+ * 212217105057*/
 package Stringcollection;
 import java.util.*;
 
