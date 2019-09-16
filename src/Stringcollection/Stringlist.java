@@ -66,7 +66,7 @@ public class Stringlist {
                 }
                 break;
             case 4:
-                System.out.println("Enter a letter");
+                System.out.println("Enter a letter:");
                 a=sc.next();
                
                 for(i=0;i<nums.size();i++)
@@ -88,7 +88,7 @@ public class Stringlist {
 
                
             case 6:
-                System.out.println("Thankyou for using number list application !!!");
+                System.out.println("Thankyou for using string list application !!!");
                 break;
             default:
                 System.out.println("Please enter a valid Sting!!!");
