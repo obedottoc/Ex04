@@ -7,7 +7,7 @@ import java.util.*;
 
 public class Stringarray {
 
-	public static void main(String[] args)   
+	public static void main(String[] args) {
 		int option;
 		String n;
 		int index,i;
