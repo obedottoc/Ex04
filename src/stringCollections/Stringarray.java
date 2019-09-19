@@ -1,4 +1,6 @@
-//created by Abhijith
+/*created by Abhijith.S
+abhijithabhi524@gmail.com
+*/
 package stringCollections;
 
 import java.util.*;
