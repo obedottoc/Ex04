@@ -1,4 +1,7 @@
 
+/***
+ * @author nikhil
+ */
 package Stringcollection;
 import java.util.*;
 
