@@ -1,6 +1,6 @@
 
 /***
- * rohitha korrapati
+* rohitha korrapati
  * rohithakorrapati21@gmail.com
  */
 package StringCollection;
