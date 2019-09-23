@@ -1,4 +1,7 @@
-
+/*
+ * devoloped by bairavan
+ * 
+ */
 package Stringcollection;
 import java.util.*;
 
