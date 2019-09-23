@@ -1,7 +1,8 @@
 /***
- * 
- * npkr.nvrr@outlook.com
- */
+ * created by roopesh
+ * 1roopesh3@gmail.com
+ * this program is created to perform string operations using array list.
+ */ 
 package Stringcollection;
 import java.util.*;
 
