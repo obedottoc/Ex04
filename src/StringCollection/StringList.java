@@ -1,3 +1,8 @@
+/** 
+ * Devloped by Mari Bhagavathi.T
+ * mari36mars@gmail.com
+ */
+
 package StringCollection;
 
 import java.util.*;
