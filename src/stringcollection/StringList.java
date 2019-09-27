@@ -1,3 +1,6 @@
+/*created by:
+aharish.m
+*/
 
 package stringcollection;
 
