@@ -1,11 +1,10 @@
 /*
- * This program is maintain the list of numbers
+ * This program is to maintain the list of strings
  * Developed by
  * D. Sarathi Raj
  * 212217105054
  * Saveetha Engineering College
  * sarathiraj852000@gmail.com
- * 
  */
 
 package stringcollection;
@@ -27,11 +26,12 @@ public class StringList {
 		
 		while(true)
 		{
-			System.out.println("1. To add an string at the end");
-			System.out.println("2. To insert an string at particular index");
+			System.out.println("1. To add a string at the end");
+			System.out.println("2. To insert a string at particular index");
 			System.out.println("3. To search for a string");
-			System.out.println("4. To display all the strings");
-			System.out.println("5. Exit");
+			System.out.println("4. To display all the strings starts with a given letter");
+			System.out.println("5. To display all the strings");
+			System.out.println("6. Exit");
 			System.out.print("Enter your choice:");
 			
 			option=sc.nextInt();
@@ -62,7 +62,6 @@ public class StringList {
 				else
 				{
 					System.out.printf("The string %s is found at the index %s\n",n,index);
-		
 				}
 				break;
 			case 4:
@@ -75,20 +74,23 @@ public class StringList {
                     {
                         System.out.println(nums.get(i));
                     }
-                   
-               
                 }
                 break;
-
-
 			case 5:
+				System.out.println("The available strings are:");
+				for(i=0;i<nums.size();i++)
+				{
+					System.out.println(nums.get(i));
+				}
+				break;
+			case 6:
 				System.out.println("Thankyou for using string list application !!!");
 				break;
 			default:
 				System.out.println("Please enter a valid number !!!");
 			}
 			
-			if(option==5)
+			if(option==6)
 			{		
 				break;
 			}
