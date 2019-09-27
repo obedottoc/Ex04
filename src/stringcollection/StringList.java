@@ -1,11 +1,12 @@
-/*
- * This program is maintain the list of numbers
- * Developed by
- * U. TamilSelvan
- * 212217105058
- * Saveetha Engineering College
+
+/**
+ * Application for area and length conversion
+ * 
+ * developed by
  * tamilfreakz002@gmail.com
- *
+ * saveetha engineering college 
+ * tamilfreakz002@gmail.com
+ * 
  */
 
 package stringcollection;
