@@ -1,4 +1,6 @@
-#created by nguru sai
+/**created by A sugumar
+ 
+ */
 package Stringcollection;
 import java.util.*;
 
